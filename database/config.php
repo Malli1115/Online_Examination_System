@@ -1,14 +1,14 @@
 <?php
 error_reporting(0);
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "oesold_db";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "oesold_db";
 
-// $servername = "remotemysql.com";
-// $username = "PGLMmpPEG2";
-// $password = "zbVL0JKODO";
-// $dbname = "PGLMmpPEG2";
+$servername = "remotemysql.com";
+$username = "T7kmO8hUGi";
+$password = "CdKqK6j8Og";
+$dbname = "T7kmO8hUGi";
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
