@@ -21,7 +21,7 @@ Using Languages: <b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap</b>, <b>Java Script</b>
     </tr>
    <tr>
     <td><img src="images/screenshot/oes_addexam.png"><span>Add examination </span></td>
-    <td><img src="images/screenshot/oes_addque.png"><span>Add question </span></td>
+    <td><img src="images/screenshot/oes_addqus.png"><span>Add question </span></td>
     </tr>
    <tr>
     <td><img src="images/screenshot/oes_student.png"><span>Student list </span></td>
@@ -34,9 +34,11 @@ Using Languages: <b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap</b>, <b>Java Script</b>
   <tr>
     <td><img src="images/screenshot/oes_sh1.png"><span>Mobile view Home</span></td>
     <td><img src="images/screenshot/oes_sh2.png"><span>Mobile view Menu</span></td>
-    <td><img src="images/screenshot/oes_sh3.png"><span>Mobile view Test</span></td>
+   </tr>
+  <tr>
+     <td><img src="images/screenshot/oes_sh3.png"><span>Mobile view Test</span></td>
     <td><img src="images/screenshot/oes_sh4.png"><span>Mobile view Details</span></td>
-    </tr>
+  </tr>
  </table>
   
 
