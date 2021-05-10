@@ -7,7 +7,7 @@ include 'includes/fetch_records.php';
     
 <head>
         
-        <title>Mock Me</title>
+        <title>Malli</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
