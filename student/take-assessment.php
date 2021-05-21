@@ -267,7 +267,7 @@ header("location:./");
                                                    <td><?php echo "$duration"; ?> <b>min.</b></td>
                                                </tr>
 											   
-											 <tr>
+											<!--  <tr>
                                                    <th scope="row">5</th>
                                                    <td>Next Re-take</td>
                                                    <td><?php 
@@ -278,7 +278,7 @@ header("location:./");
 												   }
 												   
 												   ?></td>
-                                               </tr>											   
+                                               </tr>	 -->										   
 											   <tr>
                                                    <th scope="row">5</th>
                                                    <td>Passmark</td>
@@ -327,7 +327,7 @@ header("location:./");
 
 									'; ?>
                   
-									<a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Test</a>
+									<!-- <a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Test</a> -->
 									
 									<?php	
 								}
