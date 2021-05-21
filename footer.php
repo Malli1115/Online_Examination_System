@@ -1,12 +1,5 @@
-<?php
 
-$date1 = new DateTime("2021-05-15 15:29:00");
-$date2 = new DateTime("now");
-$diff = $date1->diff($date2); 
 
-?>
-
-<?php if($diff->invert == 1){ ?>
 <section class="footer-area section-bg-2 padding-top-40px">
     <div class="container">
         <div class="row">
@@ -104,5 +97,3 @@ $diff = $date1->diff($date2);
 
 <!-- Mirrored from techydevs.com/demos/themes/html/aduca/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Jul 2020 15:33:49 GMT -->
 </html>
-
-<?php }else{} ?>

@@ -53,7 +53,6 @@ $diff = $date1->diff($date2);
 </div>
 <!-- end cssload-loader -->
 
-<!-- <?php if($diff->invert == 1){ ?> -->
 
 <!--======================================
         START HEADER AREA
@@ -108,5 +107,3 @@ $diff = $date1->diff($date2);
         </div><!-- end container-fluid -->
     </div><!-- end header-menu-content -->
 </header><!-- end header-menu-area -->
-
-<!-- <?php }else{} ?> -->

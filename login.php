@@ -32,12 +32,6 @@
         <script src="assets/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
         
     </head>
-<?php
-$date1 = new DateTime("2021-05-15 15:29:00");
-$date2 = new DateTime("now");
-$diff = $date1->diff($date2); 
-?>
-<!-- <?php if($diff->invert == 1){ ?> -->
 
      <body <?php if ($ms == "1") { print 'onload="myFunction()"'; } ?>  class="page-login">
     
@@ -96,6 +90,5 @@ function myFunction() {
 }
 </script>
     </body>
-   <!--  <?php }else{} ?> -->
 
 </html>

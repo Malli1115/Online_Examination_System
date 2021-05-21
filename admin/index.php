@@ -37,11 +37,7 @@ include 'includes/fetch_records.php';
         <script src="../assets/plugins/offcanvasmenueffects/js/snap.svg-min.js"></script>
         
     </head>
-    <?php
-    $date1 = new DateTime("2021-05-15 15:29:00");
-    $date2 = new DateTime("now");
-    $diff = $date1->diff($date2); 
-    ?>
+    
     <body class="page-header-fixed">
         <div class="overlay"></div>
         <div class="menu-wrap">
@@ -144,7 +140,7 @@ include 'includes/fetch_records.php';
                             </a>
                         </div>
                     </div>
-                    <!-- <?php if($diff->invert == 1){ ?> -->
+                    
                     <ul class="menu accordion-menu">
                         <li class="active"><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
                         <li><a href="departments.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-folder-open"></span><p>Departments</p></a></li>
@@ -156,7 +152,7 @@ include 'includes/fetch_records.php';
                         <li><a href="notice.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-th-list"></span><p>Notice</p></a></li>
                         <li><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
                     </ul>
-                      <!--  <?php }else{} ?> -->
+                      
                 </div>
             </div>
             <div class="page-inner">
