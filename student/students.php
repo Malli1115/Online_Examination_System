@@ -130,11 +130,17 @@ include 'includes/fetch_records.php';
                         </div>
                     </div>
                     <ul class="menu accordion-menu">
-                        <li><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
-                        <li><a href="subject.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-file"></span><p>Subjects</p></a></li>
+                         <li><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-th-large"></span><p>Dashboard</p></a></li>
+
                         <li class="active"><a href="students.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Students</p></a></li>
+                       
                         <li><a href="examinations.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-book"></span><p>Examinations</p></a></li>
-                        <li><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
+
+                        <li ><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
+
+                         <li><a href="rank_list.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Overall Rank List</p></a></li>
+
+                          <li><a href="../index.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-home"></span><p>Go to Home</p></a></li>
 
                     </ul>
                 </div>

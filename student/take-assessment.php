@@ -204,11 +204,16 @@ header("location:./");
                         </div>
                     </div>
                     <ul class="menu accordion-menu">
+                      
                         <li><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-th-large"></span><p>Dashboard</p></a></li>
 
+                         <li><a href="students.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Students</p></a></li>
+
                         <li class="active"><a href="examinations.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-book"></span><p>Examinations</p></a></li>
+
                         <li><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
-                         <!-- <li ><a href="rank_list.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Overall Rank List</p></a></li> -->
+
+                         <li ><a href="rank_list.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Overall Rank List</p></a></li>
 
                           <li><a href="../index.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-home"></span><p>Go to Home</p></a></li>
 
@@ -262,7 +267,7 @@ header("location:./");
                                                    <td><?php echo "$duration"; ?> <b>min.</b></td>
                                                </tr>
 											   
-											 <!--  <tr>
+											 <tr>
                                                    <th scope="row">5</th>
                                                    <td>Next Re-take</td>
                                                    <td><?php 
@@ -273,8 +278,7 @@ header("location:./");
 												   }
 												   
 												   ?></td>
-                                               </tr> -->
-											   
+                                               </tr>											   
 											   <tr>
                                                    <th scope="row">5</th>
                                                    <td>Passmark</td>
@@ -323,7 +327,7 @@ header("location:./");
 
 									'; ?>
                   
-									<!-- <a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Test</a> -->
+									<a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Test</a>
 									
 									<?php	
 								}
@@ -370,7 +374,7 @@ header("location:./");
                         </div>
             
 						
-					<!-- 	<div class="col-md-6">
+						<div class="col-md-6">
                             <div class="panel panel-white">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Assessment History</h3>
@@ -395,7 +399,7 @@ header("location:./");
 
                                 </div>
                             </div>
-                        </div> -->
+                        </div> 
                     </div>
 
                 </div>
